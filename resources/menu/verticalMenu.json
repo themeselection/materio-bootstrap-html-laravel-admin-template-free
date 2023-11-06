@@ -1,0 +1,481 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        "5"
+      ],
+      "submenu": [
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/dashboard/crm",
+          "name": "CRM",
+          "slug": "dashboard-crm",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        },
+        {
+          "url": "/",
+          "name": "Analytics",
+          "slug": "dashboard-analytics"
+        },
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/ecommerce/dashboard",
+          "name": "eCommerce",
+          "slug": "app-ecommerce-dashboard",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        },
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/logistics/dashboard",
+          "name": "Logistics",
+          "slug": "app-logistics-dashboard",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        },
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/academy/dashboard",
+          "name": "Academy",
+          "slug": "app-academy-dashboard",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Layouts",
+      "icon": "menu-icon tf-icons mdi mdi-window-maximize",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "layouts/without-menu",
+          "name": "Without menu",
+          "slug": "layouts-without-menu"
+        },
+        {
+          "url": "layouts/without-navbar",
+          "name": "Without navbar",
+          "slug": "layouts-without-navbar"
+        },
+        {
+          "url": "layouts/container",
+          "name": "Container",
+          "slug": "layouts-container"
+        },
+        {
+          "url": "layouts/fluid",
+          "name": "Fluid",
+          "slug": "layouts-fluid"
+        },
+        {
+          "url": "layouts/blank",
+          "name": "Blank",
+          "slug": "layouts-blank",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "name": "Front Pages",
+      "icon": "menu-icon tf-icons mdi mdi-flip-to-front",
+      "slug": "front-pages",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ],
+      "submenu": [
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/front-pages/landing",
+          "name": "Landing",
+          "slug": "front-pages-landing",
+          "target": "_blank"
+        },
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/front-pages/pricing",
+          "name": "Pricing",
+          "slug": "front-pages-pricing",
+          "target": "_blank"
+        },
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/front-pages/payment",
+          "name": "Payment",
+          "slug": "front-pages-payment",
+          "target": "_blank"
+        },
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/front-pages/checkout",
+          "name": "Checkout",
+          "slug": "front-pages-checkout",
+          "target": "_blank"
+        },
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/front-pages/help-center",
+          "name": "Help Center",
+          "slug": "front-pages-help-center",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "name": "Laravel CRUD",
+      "icon": "menu-icon tf-icons mdi mdi-language-php",
+      "slug": "laravel-example",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ],
+      "submenu": [
+        {
+          "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/laravel/user-management",
+          "name": "User Management",
+          "slug": "laravel-example-user-management",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Apps & Pages"
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/email",
+      "name": "Email",
+      "icon": "menu-icon tf-icons mdi mdi-email-outline",
+      "slug": "app-email",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/chat",
+      "name": "Chat",
+      "icon": "menu-icon tf-icons mdi mdi-message-outline",
+      "slug": "app-chat",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/calendar",
+      "name": "Calendar",
+      "icon": "menu-icon tf-icons mdi mdi-calendar-blank-outline",
+      "slug": "app-calendar",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/app/kanban",
+      "name": "Kanban",
+      "icon": "menu-icon tf-icons mdi mdi-view-grid-outline",
+      "slug": "app-kanban",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    },
+    {
+      "name": "Account Settings",
+      "icon": "menu-icon tf-icons mdi mdi-account-outline",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Account",
+          "slug": "pages-account-settings-account"
+        },
+        {
+          "url": "pages/account-settings-notifications",
+          "name": "Notifications",
+          "slug": "pages-account-settings-notifications"
+        },
+        {
+          "url": "pages/account-settings-connections",
+          "name": "Connections",
+          "slug": "pages-account-settings-connections"
+        }
+      ]
+    },
+    {
+      "name": "Authentications",
+      "icon": "menu-icon tf-icons mdi mdi-lock-open-outline",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "auth/login-basic",
+          "name": "Login",
+          "slug": "auth-login-basic",
+          "target": "_blank"
+        },
+        {
+          "url": "auth/register-basic",
+          "name": "Register",
+          "slug": "auth-register-basic",
+          "target": "_blank"
+        },
+        {
+          "url": "auth/forgot-password-basic",
+          "name": "Forgot Password",
+          "slug": "auth-forgot-password-basic",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "icon": "menu-icon tf-icons mdi mdi-cube-outline",
+      "slug": "pages-misc",
+      "submenu": [
+        {
+          "url": "pages/misc-error",
+          "name": "Error",
+          "slug": "pages-misc-error",
+          "target": "_blank"
+        },
+        {
+          "url": "pages/misc-under-maintenance",
+          "name": "Under Maintenance",
+          "slug": "pages-misc-under-maintenance",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Components"
+    },
+    {
+      "name": "Cards",
+      "icon": "menu-icon tf-icons mdi mdi-credit-card-outline",
+      "slug": "cards-basic",
+      "url": "cards/basic"
+    },
+    {
+      "name": "User interface",
+      "icon": "menu-icon tf-icons mdi mdi-archive-outline",
+      "slug": "ui",
+      "submenu": [
+        {
+          "url": "ui/accordion",
+          "name": "Accordion",
+          "slug": "ui-accordion"
+        },
+        {
+          "url": "ui/alerts",
+          "name": "Alerts",
+          "slug": "ui-alerts"
+        },
+        {
+          "url": "ui/badges",
+          "name": "Badges",
+          "slug": "ui-badges"
+        },
+        {
+          "url": "ui/buttons",
+          "name": "Buttons",
+          "slug": "ui-buttons"
+        },
+        {
+          "url": "ui/carousel",
+          "name": "Carousel",
+          "slug": "ui-carousel"
+        },
+        {
+          "url": "ui/collapse",
+          "name": "Collapse",
+          "slug": "ui-collapse"
+        },
+        {
+          "url": "ui/dropdowns",
+          "name": "Dropdowns",
+          "slug": "ui-dropdowns"
+        },
+        {
+          "url": "ui/footer",
+          "name": "Footer",
+          "slug": "ui-footer"
+        },
+        {
+          "url": "ui/list-groups",
+          "name": "List Groups",
+          "slug": "ui-list-groups"
+        },
+        {
+          "url": "ui/modals",
+          "name": "Modals",
+          "slug": "ui-modals"
+        },
+        {
+          "url": "ui/navbar",
+          "name": "Navbar",
+          "slug": "ui-navbar"
+        },
+        {
+          "url": "ui/offcanvas",
+          "name": "Offcanvas",
+          "slug": "ui-offcanvas"
+        },
+        {
+          "url": "ui/pagination-breadcrumbs",
+          "name": "Pagination & Breadcrumbs",
+          "slug": "ui-pagination-breadcrumbs"
+        },
+        {
+          "url": "ui/progress",
+          "name": "Progress",
+          "slug": "ui-progress"
+        },
+        {
+          "url": "ui/spinners",
+          "name": "Spinners",
+          "slug": "ui-spinners"
+        },
+        {
+          "url": "ui/tabs-pills",
+          "name": "Tabs & Pills",
+          "slug": "ui-tabs-pills"
+        },
+        {
+          "url": "ui/toasts",
+          "name": "Toasts",
+          "slug": "ui-toasts"
+        },
+        {
+          "url": "ui/tooltips-popovers",
+          "name": "Tooltips & Popovers",
+          "slug": "ui-tooltips-popovers"
+        },
+        {
+          "url": "ui/typography",
+          "name": "Typography",
+          "slug": "ui-typography"
+        }
+      ]
+    },
+    {
+      "name": "Extended UI",
+      "icon": "menu-icon tf-icons mdi mdi-star-outline",
+      "slug": "extended",
+      "submenu": [
+        {
+          "url": "extended/ui-perfect-scrollbar",
+          "name": "Perfect scrollbar",
+          "slug": "extended-ui-perfect-scrollbar"
+        },
+        {
+          "url": "extended/ui-text-divider",
+          "name": "Text Divider",
+          "slug": "extended-ui-text-divider"
+        }
+      ]
+    },
+    {
+      "url": "icons/icons-mdi",
+      "icon": "menu-icon tf-icons mdi mdi-google-circles-extended",
+      "name": "Icons",
+      "slug": "icons-mdi"
+    },
+    {
+      "menuHeader": "Forms & Tables"
+    },
+    {
+      "name": "Form Elements",
+      "icon": "menu-icon tf-icons mdi mdi-form-select",
+      "slug": "forms",
+      "submenu": [
+        {
+          "url": "forms/basic-inputs",
+          "name": "Basic Inputs",
+          "slug": "forms-basic-inputs"
+        },
+        {
+          "url": "forms/input-groups",
+          "name": "Input groups",
+          "slug": "forms-input-groups"
+        }
+      ]
+    },
+    {
+      "name": "Form Layouts",
+      "icon": "menu-icon tf-icons mdi mdi-cube-outline",
+      "slug": "form-layouts",
+      "submenu": [
+        {
+          "url": "form/layouts-vertical",
+          "name": "Vertical Form",
+          "slug": "form-layouts-vertical"
+        },
+        {
+          "url": "form/layouts-horizontal",
+          "name": "Horizontal Form",
+          "slug": "form-layouts-horizontal"
+        }
+      ]
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/form/validation",
+      "icon": "menu-icon tf-icons mdi mdi-checkbox-marked-circle-outline",
+      "name": "Form Validation",
+      "slug": "form-validation",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    },
+    {
+      "url": "tables/basic",
+      "icon": "menu-icon tf-icons mdi mdi-table",
+      "name": "Tables",
+      "slug": "tables-basic"
+    },
+    {
+      "url": "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/tables/datatables-basic",
+      "icon": "menu-icon tf-icons mdi mdi-grid",
+      "name": "Datatables",
+      "slug": "tables-datatables",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    },
+    {
+      "menuHeader": "Misc"
+    },
+    {
+      "url": "https://github.com/themeselection/materio-bootstrap-html-laravel-admin-template-free/issues",
+      "icon": "menu-icon tf-icons mdi mdi-lifebuoy",
+      "name": "Support",
+      "slug": "support",
+      "target": "_blank"
+    },
+    {
+      "url": "https://themeselection.com/demo/materio-bootstrap-html-admin-template/documentation/laravel-introduction.html",
+      "icon": "menu-icon tf-icons mdi mdi-file-document-multiple-outline",
+      "name": "Documentation",
+      "slug": "documentation",
+      "target": "_blank"
+    }
+  ]
+}
