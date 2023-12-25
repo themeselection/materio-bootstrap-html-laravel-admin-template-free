@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://github.com/themeselection/materio-bootstrap-html-laravel-admin-template-free/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/themeselection/materio-html-laravel-admin-template-free" alt="license">
+    <img src="https://img.shields.io/github/license/themeselection/materio-bootstrap-html-laravel-admin-template-free" alt="license">
   </a>
   <a href="https://github.com/themeselection/materio-bootstrap-html-laravel-admin-template-free/releases/">
     <img src="https://img.shields.io/github/release/themeselection/materio-bootstrap-html-laravel-admin-template-free.svg" alt="GitHub release">
