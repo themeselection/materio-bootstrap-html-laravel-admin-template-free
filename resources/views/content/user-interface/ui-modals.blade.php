@@ -3,23 +3,19 @@
 @section('title', 'Modals - UI elements')
 
 @section('page-script')
-<script src="{{asset('assets/js/ui-modals.js')}}"></script>
+  @vite(['resources/assets/js/ui-modals.js'])
 @endsection
 
 @section('content')
-<h4 class="py-3 mb-4">
-  <span class="text-muted fw-light">UI elements /</span> Modals
-</h4>
-
 <!-- Bootstrap modals -->
-<div class="card mb-4">
+<div class="card mb-6">
   <h5 class="card-header">Bootstrap modals</h5>
   <div class="card-body">
     <div class="row gy-3">
       <!-- Default Modal -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Default</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
             Launch modal
@@ -30,19 +26,19 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title" id="exampleModalLabel1">Modal title</h4>
+                  <h5 class="modal-title" id="exampleModalLabel1">Modal title</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
-                    <div class="col mb-4 mt-2">
+                    <div class="col mb-6 mt-2">
                       <div class="form-floating form-floating-outline">
                         <input type="text" id="nameBasic" class="form-control" placeholder="Enter Name">
                         <label for="nameBasic">Name</label>
                       </div>
                     </div>
                   </div>
-                  <div class="row g-2">
+                  <div class="row g-4">
                     <div class="col mb-2">
                       <div class="form-floating form-floating-outline">
                         <input type="email" id="emailBasic" class="form-control" placeholder="xxxx@xxx.xx">
@@ -70,7 +66,7 @@
       <!-- Vertically Centered Modal -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Vertically centered</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCenter">
             Launch modal
@@ -81,19 +77,19 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title" id="modalCenterTitle">Modal title</h4>
+                  <h5 class="modal-title" id="modalCenterTitle">Modal title</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
-                    <div class="col mb-4 mt-2">
+                    <div class="col mb-6 mt-2">
                       <div class="form-floating form-floating-outline">
                         <input type="text" id="nameWithTitle" class="form-control" placeholder="Enter Name">
                         <label for="nameWithTitle">Name</label>
                       </div>
                     </div>
                   </div>
-                  <div class="row g-2">
+                  <div class="row g-4">
                     <div class="col mb-2">
                       <div class="form-floating form-floating-outline">
                         <input type="email" id="emailWithTitle" class="form-control" placeholder="xxxx@xxx.xx">
@@ -121,7 +117,7 @@
       <!-- Slide from Top Modal -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Slide from Top</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTop">
             Launch modal
@@ -132,19 +128,19 @@
             <div class="modal-dialog">
               <form class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title" id="modalTopTitle">Modal title</h4>
+                  <h5 class="modal-title" id="modalTopTitle">Modal title</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
-                    <div class="col mb-4 mt-2">
+                    <div class="col mb-6 mt-2">
                       <div class="form-floating form-floating-outline">
                         <input type="text" id="nameSlideTop" class="form-control" placeholder="Enter Name">
                         <label for="nameSlideTop">Name</label>
                       </div>
                     </div>
                   </div>
-                  <div class="row g-2">
+                  <div class="row g-4">
                     <div class="col mb-2">
                       <div class="form-floating form-floating-outline">
                         <input type="email" id="emailSlideTop" class="form-control" placeholder="xxxx@xxx.xx">
@@ -176,7 +172,7 @@
       <!-- Modal with YouTube Video -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">YouTube Video</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#youTubeModal" data-theVideo="https://www.youtube.com/embed/EngW7tLk6R8">
             Launch modal
           </button>
@@ -195,7 +191,7 @@
       <!-- Toggle Between Modals -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Toggle Between Modals</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalToggle">
             Launch modal
           </button>
@@ -205,7 +201,7 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title" id="modalToggleLabel">Modal 1</h4>
+                  <h5 class="modal-title" id="modalToggleLabel">Modal 1</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -222,7 +218,7 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title" id="modalToggleLabel2">Modal 2</h4>
+                  <h5 class="modal-title" id="modalToggleLabel2">Modal 2</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -240,7 +236,7 @@
       <!-- Fullscreen Modal -->
       <div class="col-lg-4 col-md-6">
         <small class="text-light fw-medium">Fullscreen</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
             Launch modal
           </button>
@@ -250,7 +246,7 @@
             <div class="modal-dialog modal-fullscreen" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title" id="modalFullTitle">Modal title</h4>
+                  <h5 class="modal-title" id="modalFullTitle">Modal title</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -313,19 +309,19 @@
           <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel2">Modal title</h4>
+                <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <div class="row">
-                  <div class="col mb-4 mt-2">
+                  <div class="col mb-6 mt-2">
                     <div class="form-floating form-floating-outline">
                       <input type="text" id="nameSmall" class="form-control" placeholder="Enter Name">
                       <label for="nameSmall">Name</label>
                     </div>
                   </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-4">
                   <div class="col mb-2">
                     <div class="form-floating form-floating-outline">
                       <input type="email" class="form-control" id="emailSmall" placeholder="xxxx@xxx.xx">
@@ -352,19 +348,19 @@
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel3">Modal title</h4>
+                <h5 class="modal-title" id="exampleModalLabel3">Modal title</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <div class="row">
-                  <div class="col mb-4 mt-2">
+                  <div class="col mb-6 mt-2">
                     <div class="form-floating form-floating-outline">
                       <input type="text" id="nameLarge" class="form-control" placeholder="Enter Name">
                       <label for="nameLarge">Name</label>
                     </div>
                   </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-4">
                   <div class="col mb-2">
                     <div class="form-floating form-floating-outline">
                       <input type="email" id="emailLarge" class="form-control" placeholder="xxxx@xxx.xx">
@@ -391,19 +387,19 @@
           <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="exampleModalLabel4">Modal title</h4>
+                <h5 class="modal-title" id="exampleModalLabel4">Modal title</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <div class="row">
-                  <div class="col mb-4 mt-2">
+                  <div class="col mb-6 mt-2">
                     <div class="form-floating form-floating-outline">
                       <input type="text" id="nameExLarge" class="form-control" placeholder="Enter Name">
                       <label for="nameExLarge">Name</label>
                     </div>
                   </div>
                 </div>
-                <div class="row g-2">
+                <div class="row g-4">
                   <div class="col mb-2">
                     <div class="form-floating form-floating-outline">
                       <input type="email" id="emailExLarge" class="form-control" placeholder="xxxx@xxx.xx">
@@ -448,7 +444,7 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="modalLongTitle">Modal title</h4>
+                <h5 class="modal-title" id="modalLongTitle">Modal title</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -501,7 +497,7 @@
           <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="modalScrollableTitle">Modal title</h4>
+                <h5 class="modal-title" id="modalScrollableTitle">Modal title</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -542,7 +538,7 @@
                 <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl
                   consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
               </div>
-              <div class="modal-footer">
+              <div class="modal-footer mt-1">
                 <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Save changes</button>
               </div>
@@ -565,7 +561,7 @@
       <!-- Modal Backdrop -->
       <div class="col-lg-4 col-md-3">
         <small class="text-light fw-medium">Backdrop</small>
-        <div class="mt-3">
+        <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#backDropModal">
             Launch modal
@@ -576,19 +572,19 @@
             <div class="modal-dialog">
               <form class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title" id="backDropModalTitle">Modal title</h4>
+                  <h5 class="modal-title" id="backDropModalTitle">Modal title</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
-                    <div class="col mb-4 mt-2">
+                    <div class="col mb-6 mt-2">
                       <div class="form-floating form-floating-outline">
                         <input type="text" id="nameBackdrop" class="form-control" placeholder="Enter Name">
                         <label for="nameBackdrop">Name</label>
                       </div>
                     </div>
                   </div>
-                  <div class="row g-2">
+                  <div class="row g-4">
                     <div class="col mb-2">
                       <div class="form-floating form-floating-outline">
                         <input type="email" id="emailBackdrop" class="form-control" placeholder="xxxx@xxx.xx">

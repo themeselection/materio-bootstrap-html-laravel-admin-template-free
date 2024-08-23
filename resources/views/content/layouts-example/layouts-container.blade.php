@@ -19,6 +19,4 @@ $containerNav = 'container-xxl';
   </div>
 </div>
 <!--/ Layout Demo -->
-
-
 @endsection

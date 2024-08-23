@@ -1,3 +1,7 @@
+@php
+use Illuminate\Support\Facades\Route;
+@endphp
+
 <ul class="menu-sub">
   @if (isset($menu))
     @foreach ($menu as $submenu)

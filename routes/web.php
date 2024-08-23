@@ -37,7 +37,7 @@ use App\Http\Controllers\user_interface\TooltipsPopovers;
 use App\Http\Controllers\user_interface\Typography;
 use App\Http\Controllers\extended_ui\PerfectScrollbar;
 use App\Http\Controllers\extended_ui\TextDivider;
-use App\Http\Controllers\icons\MdiIcons;
+use App\Http\Controllers\icons\RiIcons;
 use App\Http\Controllers\form_elements\BasicInput;
 use App\Http\Controllers\form_elements\InputGroups;
 use App\Http\Controllers\form_layouts\VerticalForm;
@@ -95,7 +95,7 @@ Route::get('/extended/ui-perfect-scrollbar', [PerfectScrollbar::class, 'index'])
 Route::get('/extended/ui-text-divider', [TextDivider::class, 'index'])->name('extended-ui-text-divider');
 
 // icons
-Route::get('/icons/icons-mdi', [MdiIcons::class, 'index'])->name('icons-mdi');
+Route::get('/icons/icons-ri', [RiIcons::class, 'index'])->name('icons-ri');
 
 // form elements
 Route::get('/forms/basic-inputs', [BasicInput::class, 'index'])->name('forms-basic-inputs');

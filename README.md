@@ -2,7 +2,7 @@
 
 <p align="center">
    <a href="https://themeselection.com/item/materio-free-bootstrap-html-laravel-admin-template/" target="_blank">
-      <img src="https://user-images.githubusercontent.com/64475785/158384184-1fe44a59-6b68-40f5-b860-d14c51f0ce5d.svg" alt="materio-logo" width="60px" height="auto">
+      <img src="https://cdn.themeselection.com/ts-assets/materio/logo/logo.png" alt="materio-logo" width="40px" height="auto">
    </a>
 </p>
 
@@ -32,7 +32,7 @@
   </a>
 </p>
 
-<kbd>[![Materio - Bootstrap 5 HTML Laravel Admin Template Demo Screenshot](https://cdn.jsdelivr.net/gh/themeselection/ts-assets/materio/materio-bootstrap-laravel-admin-template-free/banner/banner.png)](https://themeselection.com/item/materio-free-bootstrap-html-laravel-admin-template/)</kbd>
+<kbd>[![Materio - Bootstrap 5 HTML Laravel Admin Template Demo Screenshot](https://cdn.themeselection.com/ts-assets/materio/materio-bootstrap-laravel-admin-template-free/banner/banner.png)](https://themeselection.com/item/materio-free-bootstrap-html-laravel-admin-template/)</kbd>
 
 ## Introduction 🚀
 
@@ -68,7 +68,7 @@ yarn
 5. To run the project, you need to run the following command in the project directory. It will compile JavaScript and Styles.
 
 ```bash
-yarn dev
+yarn build
 ```
 
 6. To serve the application, you need to run the following command in the project directory
@@ -109,7 +109,7 @@ yarn prod
 - Extended UI
   - Perfect Scrollbar
   - Text Divider
-- Material Design Icons
+- Remix Icons
 - Form Elements
   - Basic Inputs
   - Input Groups
@@ -130,7 +130,7 @@ yarn prod
 | Fixed Layout(Menu)                                                                                | Fixed & Static Layout(Menu)                                                                                                                                                                   |
 | 1 Simple Dashboard                                                                                | 5 Niche Dashboards                                                                                                                                                                            |
 | -                                                                                                 | Multiple Ready to use Application like **Laravel CRUD Application**, Email, Chat, Calendar, Kanban, eCommerce, Academy, Logistics, Invoice, Users List, Users View, Roles and Permission etc. |
-| Simple From Elements                                                                              | Advance form elements, validation & form wizard                                                                                                                                               |
+| Simple Form Elements                                                                              | Advance form elements, validation & form wizard                                                                                                                                               |
 | Basic Cards                                                                                       | Basic, Advance , Statistics, Analytics, Gamifications and Actions Cards                                                                                                                       |
 | Basic User Interface(Components)                                                                  | Advance and Custom User Interfaces(Components)                                                                                                                                                |
 | Two Extended Components                                                                           | Twelve Ready to use Extended Components                                                                                                                                                       |
@@ -200,7 +200,7 @@ For free products, enjoy community support via GitHub issues. Upgrade to Premium
 ## Also Available In
 
 <p>
-   <!-- Figma -->
+  <!-- Figma -->
    <a href="https://themeselection.com/item/materio-figma-admin-dashboard-ui-kit/" target="_blank"><picture><source width="auto" height="74px" media="(prefers-color-scheme: dark)" srcset="https://github.com/microsoft/vscode/assets/47495003/0318a6c8-4f9b-4cf6-af5e-d357f909ea2b"><source width="auto" height="74px" media="(prefers-color-scheme: light)" srcset="https://github.com/microsoft/vscode/assets/47495003/47f21dfe-c1fc-4a7d-859e-4d98f8cdded1"><img width="auto" height="74px" alt="html" src="https://github.com/microsoft/vscode/assets/47495003/47f21dfe-c1fc-4a7d-859e-4d98f8cdded1"></picture></img></a>&nbsp;&nbsp;
    <!-- HTML -->
    <a href="https://themeselection.com/item/materio-bootstrap-html-admin-template/" target="_blank"><picture><source width="auto" height="74px" media="(prefers-color-scheme: dark)" srcset="https://github.com/microsoft/vscode/assets/47495003/5fe77c46-2e4c-475a-8dec-e30e2badddee"><source width="auto" height="74px" media="(prefers-color-scheme: light)" srcset="https://github.com/microsoft/vscode/assets/47495003/3f5decd8-cd99-4ed3-aa76-528ca061385b"><img width="auto" height="74px" alt="html" src="https://github.com/microsoft/vscode/assets/47495003/3f5decd8-cd99-4ed3-aa76-528ca061385b"></picture></img></a>&nbsp;&nbsp;
@@ -226,22 +226,22 @@ For free products, enjoy community support via GitHub issues. Upgrade to Premium
 
 **[ThemeSelection](https://themeselection.com/)** provides Selected high quality, modern design, professional and easy-to-use **Fully Coded Dashboard Templates & UI Kits** to create your applications faster!
 
-- [Bootstrap Admin Templates](https://themeselection.com/products/category/bootstrap-admin-templates/)
-- [VueJS Admin Templates](https://themeselection.com/products/category/vuejs-admin-templates/)
-- [Laravel Admin Templates](https://themeselection.com/products/category/laravel-admin-templates/)
+- [Bootstrap Admin Templates](https://themeselection.com/item/category/bootstrap-admin-template/)
+- [VueJS Admin Templates](https://themeselection.com/item/category/vuejs-admin-templates/)
+- [Laravel Admin Templates](https://themeselection.com/item/category/laravel-admin-templates/)
 - [Django Admin Templates](https://themeselection.com/item/category/django-admin-template/)
 - [React (NextJS) Admin Templates](https://themeselection.com/item/category/next-js-admin-template/)
 - [ASP.Net Core Admin Templates](https://themeselection.com/item/category/asp-net-dashboard/)
-- [Free UI Kits](https://themeselection.com/products/category/free-ui-kits/)
+- [Free UI Kits](https://themeselection.com/item/category/free-ui-kits/) 
 
-If you want to [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
+If you want to [Download Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/) like Materio then do visit [ThemeSelection](https://themeselection.com/).
 
 ## Useful Links 🎁
 
-- [Freebies](https://themeselection.com/products/category/download-free-admin-templates/)
-- [Download Free Admin Templates](https://themeselection.com/products/category/download-free-admin-templates/)
-- [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
 - [Vue CheatSheet](https://vue-cheatsheet.themeselection.com/)
+- [Freebies](https://themeselection.com/item/category/free-admin-templates/)
+- [Download Free Admin Templates](https://themeselection.com/item/category/free-admin-templates/)
+- [Bootstrap 5 CheatSheet](https://bootstrap-cheatsheet.themeselection.com/)
 
 ## Social Media :earth_africa:
 
