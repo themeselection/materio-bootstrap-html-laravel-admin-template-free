@@ -4,9 +4,6 @@
 @mixin template-progress-bar-theme($background, $color: null) {
   .progress-bar {
     background-color: $background;
+    color: if($color, $color, color-contrast($background));
   }
-}
-
-@mixin template-progress-bar-shadow-variant($parent, $background-shadow) {
-  $background-shadow: $background-shadow;
 }

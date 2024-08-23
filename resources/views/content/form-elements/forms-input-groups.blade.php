@@ -3,12 +3,10 @@
 @section('title', 'Input groups - Forms')
 
 @section('content')
-<h4 class="py-3 mb-4"><span class="text-muted fw-light">Forms /</span> Input groups</h4>
-
 <div class="row">
   <!-- Basic -->
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Basic</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
@@ -21,7 +19,7 @@
           <label class="form-label" for="basic-default-password42">Password</label>
           <div class="input-group">
             <input type="password" class="form-control" id="basic-default-password42" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="basic-default-password42" />
-            <span class="input-group-text cursor-pointer"><i class="mdi mdi-eye-off-outline"></i></span>
+            <span class="input-group-text cursor-pointer"><i class="ri-eye-off-line ri-20px"></i></span>
           </div>
         </div>
 
@@ -52,12 +50,12 @@
 
   <!-- Merged -->
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Merged</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
         <div class="input-group input-group-merge">
-          <span class="input-group-text" id="basic-addon-search31"><i class="mdi mdi-magnify"></i></span>
+          <span class="input-group-text" id="basic-addon-search31"><i class="ri-search-line ri-20px"></i></span>
           <input type="text" class="form-control" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search31" />
         </div>
 
@@ -65,7 +63,7 @@
           <label class="form-label" for="basic-default-password32">Password</label>
           <div class="input-group input-group-merge">
             <input type="password" class="form-control" id="basic-default-password32" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="basic-default-password32" />
-            <span class="input-group-text cursor-pointer"><i class="mdi mdi-eye-off-outline"></i></span>
+            <span class="input-group-text cursor-pointer"><i class="ri-eye-off-line ri-20px"></i></span>
           </div>
         </div>
 
@@ -96,7 +94,7 @@
 
   <!-- Sizing -->
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Sizing</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
@@ -120,7 +118,7 @@
   </div>
   <!-- Checkbox and radio addons -->
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Checkbox and radio addons</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
         <div class="input-group">
@@ -137,15 +135,13 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
-
 
 <div class="row">
   <!-- Multiple inputs & addon -->
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Multiple inputs & addon</h5>
 
       <div class="card-body demo-vertical-spacing demo-only-element">
@@ -156,7 +152,7 @@
           <input type="text" aria-label="Last name" class="form-control">
         </div>
 
-        <small class="text-light fw-medium d-block pt-3">Multiple addons</small>
+        <small class="text-light fw-medium d-block pt-4">Multiple addons</small>
         <div class="input-group">
           <span class="input-group-text">$</span>
           <span class="input-group-text">0.00</span>
@@ -174,7 +170,7 @@
   </div>
   <!-- Speech To Text -->
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Speech To Text</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
@@ -183,16 +179,16 @@
         <div class="input-group input-group-merge speech-to-text">
           <input type="text" class="form-control" placeholder="Say it" aria-describedby="text-to-speech-addon">
           <span class="input-group-text" id="text-to-speech-addon">
-            <i class='mdi mdi-microphone-outline cursor-pointer text-to-speech-toggle'></i>
+            <i class='ri-mic-line ri-20px cursor-pointer text-to-speech-toggle'></i>
           </span>
         </div>
 
-        <small class="text-light fw-medium d-block pt-3">Textarea</small>
+        <small class="text-light fw-medium d-block pt-4">Textarea</small>
 
         <div class="input-group input-group-merge speech-to-text">
           <textarea class="form-control" placeholder="Say it" rows="2"></textarea>
           <span class="input-group-text">
-            <i class='mdi mdi-microphone-outline cursor-pointer text-to-speech-toggle'></i>
+            <i class='ri-mic-line ri-20px cursor-pointer text-to-speech-toggle'></i>
           </span>
         </div>
 
@@ -204,7 +200,7 @@
 <!-- Button with dropdowns & addons -->
 <div class="row">
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card mb-6">
       <h5 class="card-header">Button with dropdowns & addons</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
         <small class="text-light fw-medium d-block">Button addons</small>
@@ -230,7 +226,7 @@
           <button class="btn btn-outline-primary" type="button">Button</button>
         </div>
 
-        <small class="text-light fw-medium d-block pt-3">Button with dropdowns</small>
+        <small class="text-light fw-medium d-block pt-4">Button with dropdowns</small>
         <div class="input-group">
           <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
           <ul class="dropdown-menu">
@@ -292,7 +288,7 @@
     <!-- Segmented buttons -->
     <div class="row">
       <div class="col-12">
-        <div class="card mb-4">
+        <div class="card mb-6">
           <h5 class="card-header">Segmented buttons</h5>
           <div class="card-body demo-vertical-spacing demo-only-element">
             <div class="input-group">
@@ -336,7 +332,7 @@
     <!-- Custom select -->
     <div class="row">
       <div class="col-12">
-        <div class="card mb-4">
+        <div class="card mb-6">
           <h5 class="card-header">Custom select</h5>
           <div class="card-body demo-vertical-spacing demo-only-element">
             <div class="input-group">
