@@ -214,12 +214,10 @@
     font-style: normal;
     font-size: $font-size-xl;
     &::before {
-      content: '\f050';
       @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
         content: '\eb99';
       }
       .layout-menu-collapsed & {
-        content: '\f3c2';
         @include media-breakpoint-down($menu-collapsed-layout-breakpoint) {
           content: '\eb99';
         }
